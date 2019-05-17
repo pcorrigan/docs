@@ -1,0 +1,42 @@
+version: '3'
+services:
+
+  dsw_server:
+    image: datastewardshipwizard/server
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - /dsw/app-config.cfg:/dsw/config/app-config.cfg
+    links:
+      - rabbitmq
+      - mongo
+
+  dsw_client:
+    image: datastewardshipwizard/client
+    restart: always
+    ports:
+      - 80:80
+    environment:
+      - API_URL=http://localhost:3000
+      
+  dsw_server_worker:
+    image: datastewardshipwizard/crontab
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /dsw/worker-config.json:/opt/crontab/config.json
+    environment:
+      - API_URL=http://localhost:3000
+
+  rabbitmq:
+    image: rabbitmq
+
+  mongo:
+    image: mongo:3.0.15
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - /dsw/data:/data/db
+    command: mongod

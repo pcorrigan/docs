@@ -1,2 +1,3 @@
-# docs-sphinx
-Trying to make Sphinx docs instead of GitBook
+# DS Wizard Documentation
+
+Sphinx documentation of Data Stewardship Wizard
