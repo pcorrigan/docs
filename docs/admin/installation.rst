@@ -186,7 +186,7 @@ If you want to regularly backup your database (and you should!), all you need to
 
 Make it executable (chmod a+x dsw-backup.sh) and add it as cronjob with crontab -e:
 
-.. code-block::
+.. code-block:: none
 
    0 4 * * * /dsw/dsw-backup.sh
 

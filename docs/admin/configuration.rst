@@ -428,7 +428,7 @@ If you want to include some graphics or JavaScript, we recommend you to put it d
 
 Alternatively, you can of course reference picture that is accessible online. For JavaScript, again you can put there directly some script or reference it, for example, from some CDN:
 
-.. code-block::
+.. code-block:: none
 
    <style type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></style>
    <style type="text/javascript">
