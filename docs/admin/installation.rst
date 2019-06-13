@@ -12,8 +12,15 @@ Public Instance
 The application is currently deployed on a server provided by `FIT CTU <https://fit.cvut.cz/en>`_. Here are the addresses of running applications:
 
 - Landing: https://ds-wizard.org
-- Server: https://api.app.ds-wizard.org
-- Client: https://app.ds-wizard.org
+- Demo instance (free to use, for trying out all the features, unstable)
+
+  - Client: https://demo.ds-wizard.org
+  - Server: https://api.demo.ds-wizard.org
+
+- Researchers instance (free to use, to build own DMPs, prepared for serious work)
+
+  - Client: https://researchers.ds-wizard.org
+  - Server: https://api.researchers.ds-wizard.org
 
 .. Tip::
 
