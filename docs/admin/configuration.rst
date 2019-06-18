@@ -441,6 +441,8 @@ Client also provides wide variety of style customizations using `SASS <https://s
       - /path/to/customizations.scss:/customizations/variables.scss
       # mount other assets, you can then refere them from scss using '/assets/...'
       - /path/to/assets:/usr/share/nginx/html/assets
+      
+For more information about variables and assets, visit `Theming Bootstrap <https://getbootstrap.com/docs/4.0/getting-started/theming/>`_.
 
 .. _config-worker:
 
