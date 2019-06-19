@@ -108,7 +108,7 @@ Configuration related to general operations of the server application.
    :type: Boolean
    :default: ``true``
 
-   If questionnaires can be set private, public read-only, or public. When disabled (i.e. value is set to ``false``), all questionnaires are public.
+   If questionnaires can be set private, public read-only, or public. When disabled (i.e. value is set to ``false``), all questionnaires are private.
 
 
 Client
