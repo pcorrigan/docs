@@ -61,6 +61,12 @@ Integration question
 
 When you have some integration(s) configured, you can create questions of type **Integration**, then you have to select which integration should be used and if has any **Props** defined, you can fill them as well. Using the **Preview** functionality, you can easily verify if it works. If *Unable to get type hints* error appears, your configuration is not correct (looking at the server log can be helpful if you have access to it).
 
+
+FAIRsharing.org
+===============
+
+We recognize `FAIRsharing.org <https://fairsharing.org>`_ as high-quality service for curated, informative and educational resource on data and metadata **standards**, inter-related to **databases** and data **policies**. It is recommended to use FAIRsharing integration (for more, see :ref:`integrations`) when need a hints for **standards**, **databases**, **collections**, and **policies**. In case that requested item is not present there, use `add/claim content <https://fairsharing.org/new/>`_ rather than another integration service that does not provide such level of confidency.
+
 .. _Postman: https://www.getpostman.com
 .. _curl: https://curl.haxx.se
 .. _Base64 Image Encoder: https://www.base64-image.de
