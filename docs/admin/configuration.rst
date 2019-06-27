@@ -353,6 +353,13 @@ Configuration of analytic/informational emails for administrators, e.g., that a 
 Registry
 ~~~~~~~~
 
+.. confval:: enabled
+
+   :type: Boolean
+   :default: ``false``
+
+   If connection with Registry should be made.
+
 .. confval:: token
 
    :type: String

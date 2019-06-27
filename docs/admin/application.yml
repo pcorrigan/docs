@@ -50,6 +50,10 @@ analytics:
   enabled: false
   email:
 
+registry:
+  enabled: true
+  token: <token from registry.ds-wizard.org>
+
 feedback:
   enabled: false
   token:
