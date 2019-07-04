@@ -19,6 +19,7 @@ The `Data Stewardship Wizard <https://ds-wizard.org>`_ is an international proje
 
    user/about
    user/usage
+   user/tutorial
    user/integrations
 
 .. toctree::
